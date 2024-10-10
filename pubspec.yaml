@@ -1,0 +1,23 @@
+name: p1_fitbody
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^5.0.0 # Verifique se a versão está correta
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
